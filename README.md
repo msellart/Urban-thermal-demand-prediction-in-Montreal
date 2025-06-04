@@ -4,7 +4,7 @@ This repository contains a complete pipeline to simulate, train, and visualize t
 
 
 
-## Project Structure
+## Setup Instructions
 
 To begin, first download this repository to your local machine. It is hosted at:
 
