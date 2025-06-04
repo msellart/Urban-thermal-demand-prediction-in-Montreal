@@ -6,29 +6,31 @@ This repository contains a complete pipeline to simulate, train, and visualize t
 
 ## Project Structure
 
-To begin, first **download or clone** this repository to your local machine. It is hosted at:
+To begin, first download this repository to your local machine. It is hosted at:
 
-[Download the project folder](https://nextcloud.tech.beegroup-cimne.com/s/xNRHBCrTGzWiszy)  
+[Download the project folder](https://nextcloud.tech.beegroup-cimne.com/s/RSD7ciYFeFa9334)  
 
 
  Then, open a terminal and navigate to the main project folder:
 
 ```bash
 cd Urban-thermal-demand-prediction-in-Montreal
+```
 
 Each main component of the project (ep_workflow, models, and visualization) contains its own requirements.txt file. To install the dependencies for any module, use:
 
+
+
 ```bash
 pip install -r <folder>/requirements.txt
+```
 
 For example:
 
+
 ```bash
 pip install -r ep_workflow/requirements.txt
-
-
-
-
+```
 
 ---
 
@@ -86,3 +88,4 @@ This folder contains the data, code, and results related to training and deployi
 To run the app:
 ```bash
 streamlit run visualization/app.py
+```
